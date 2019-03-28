@@ -3,5 +3,5 @@ var playlist = {
   Song  : "Doe",
 };
 
-function.updatePlaylist(playlist, Artist, Song);
+object.updatePlaylist(playlist, Artist, Song);
 objects.removeFromPlaylist('playlist', 'Artist', 'Song');
