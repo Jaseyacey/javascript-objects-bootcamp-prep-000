@@ -1,6 +1,7 @@
 var playlist = {
-  Artist : "John",
+  Artist : "Lil Wayne",
   Song  : "Doe",
 };
 
-document.getElementById("playlist").innerHTML = playlist.Artist + playlist.Song;
+objects.updatePlaylist('Artist', 'Song');
+objects.removeFromPlaylist('Artist', 'Song');
