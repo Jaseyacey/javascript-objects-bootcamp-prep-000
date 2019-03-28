@@ -1,7 +1,7 @@
 var playlist = {
-  Artist : "Lil Wayne",
-  Song  : "Doe",
+  artistName : "Lil Wayne",
+  songTitle  : "Doe",
 };
 
-object.updatePlaylist(playlist, Artist, Song);
-objects.removeFromPlaylist('playlist', 'Artist', 'Song');
+object.updatePlaylist(playlist, artistName, songTitle);
+object.updatePlaylist(playlist, artistName, songTitle);
