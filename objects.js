@@ -3,5 +3,7 @@ var playlist = {
   songTitle  : "Doe",
 };
 
-object.updatePlaylist(playlist, artistName, songTitle);
-object.updatePlaylist(playlist, artistName, songTitle);
+function updatePlaylist(playlist, artistName, songTitle) {
+  playlist[artistName] = songTitle; 
+  return playlist
+}
